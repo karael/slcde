@@ -1,0 +1,40 @@
+#menu{
+	height: 100vh;
+	padding-top: 30px;
+	.fullWidth{
+		height: 33.333%;
+		max-width: initial;
+		p{
+			@include fontOpenSans();
+			color: white;
+			right: 0;
+			height: 31.6%;
+			transform: translateY(50%);
+			margin: auto;
+			z-index: 10;
+			padding-right: 40px;
+			position: absolute;
+		}
+		.inNav{
+			height: 100%;
+			background-image: url("/assets/img/texture/background-brown.png");
+			opacity: 0.35;
+		}
+	}
+	.topNav{
+		background-image: url("/assets/img/explication_menu/background-exploration-menu-1.png");
+		background-size: cover;
+	}
+	.middleNav{
+		background-image: url("/assets/img/explication_menu/background-exploration-menu-3.png");
+		background-size: cover;
+	}
+	.bottomNav{
+		background-image: url("/assets/img/explication_menu/background-exploration-menu-2.png");
+		background-size: cover;
+		p{
+			height: 10%;
+			transform: translateY(150%);
+		}
+	}
+}

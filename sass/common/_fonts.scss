@@ -1,0 +1,54 @@
+///* Fonts *///
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url('/assets/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: "GOTHAM-BLACK";
+	src: url('/assets/fonts/GOTHAM-BLACK.TTF')
+}
+
+@font-face {
+	font-family: "GOTHAM-BOLD";
+	src: url('/assets/fonts/GOTHAM-BOLD.TTF')
+}
+
+@font-face {
+	font-family: "GOTHAM-MEDIUM";
+	src: url('/assets/fonts/GOTHAM-MEDIUM.TTF')
+}
+
+@font-face {
+	font-family: "GOTHAM-XLIGHT";
+	src: url('/assets/fonts/GOTHAM-XLIGHT.TTF');
+}
+
+
+//* MIXINS *//
+
+@mixin fontOpenSans() {
+	font-family: 'OpenSans-Regular';
+}
+
+@mixin fontGothamBlack() {
+	font-family: 'GOTHAM-BLACK';
+}
+
+@mixin fontGothamMedium() {
+	font-family: 'GOTHAM-MEDIUM';
+}
+
+@mixin fontGothamBold() {
+	font-family: 'GOTHAM-BOLD';
+}
+
+@mixin fontGothamXlight() {
+	font-family: 'GOTHAM-XLIGHT';
+}
+
+
+
+
+

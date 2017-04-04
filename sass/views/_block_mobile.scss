@@ -1,0 +1,19 @@
+#block_mobile{
+	background-image: url(../assets/img/background/background-video.jpg);
+	background-size: cover;
+	height: 100vh;
+	.content-404{
+		height: 100%;
+		width: 100%;
+		div{
+			position: absolute;
+			top: 45%;
+			p{
+				text-align: center;
+				@include fontGothamBold();
+				font-size: 1.5em;
+				color: white;
+			}
+		}
+	}
+}

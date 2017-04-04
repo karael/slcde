@@ -1,0 +1,50 @@
+#explication_nav{
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+	.explicationContent{
+		height: calc( 100vh - 30px );
+		z-index: 10;
+		.rectangle{
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			top: 40%;
+			border: 2px solid $white;
+		}
+		.rectangletop{
+			top: 31%;
+			left: 48%;
+			animation: 1.5s touch infinite;
+		}
+		.rectangle1{
+			left: 53%;
+		}
+		.rectangle2{
+			animation: 1.5s touchSecond infinite;
+			left: 48%;
+		}
+		.rectangle3{
+			left: 43%;
+		}
+		.text-explication{
+			width: 100%;
+			top: 50%;
+			color: white;
+   			position: absolute;
+    		text-align: center;
+    		font-size: 25px;
+    		@include fontOpenSans();
+		}
+	}
+}
+@keyframes touch {
+	0% {border: 2px solid $black;}
+	50% {border: 2px solid $white;}
+	100%{border: 2px solid $black;}
+}
+@keyframes touchSecond {
+	0% {border: 2px solid $white;}
+	50% {border: 2px solid $black;}
+	100%{border: 2px solid $white;}
+}

@@ -1,0 +1,24 @@
+/* Variables */
+
+////* Init *////
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear:both;
+}
+
+////* Colors *////
+$brown: #a57c55;
+$black: #000000;
+$white: #ffffff;
+$gray: #77787b;
+$brown-2: #f0b47d;
+
+////* FULL WIDTH FOUNDATION *////
+.row{
+  &.full-width{
+    max-width: 100% !important;
+  }
+}

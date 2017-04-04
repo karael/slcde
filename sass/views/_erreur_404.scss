@@ -1,0 +1,29 @@
+#erreur_404{
+	background-image: url(../assets/img/background/background-video.jpg);
+	background-size: cover;
+	height: 100vh;
+	.content-404{
+		height: 100%;
+		width: 100%;
+		div{
+			position: absolute;
+			top: 35%;
+			p:first-child{
+				text-align: center;
+				@include fontGothamBold();
+				font-size: 1.8em;
+				color: $brown;
+			}
+			p:last-child{
+				text-align: center;
+				@include fontOpenSans();
+				color: white;
+				font-size: 1em;
+				a{
+					color: white;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
